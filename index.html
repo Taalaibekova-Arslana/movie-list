@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Список дел</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="taskTitle">
+    <h1>Список дел</h1>
+    <div class="form">
+      <label for="textTitle">Напишите название:<input type="text" id="textTitle"></label>
+      <label for="dateTitle">Напишите дату:<input type="date" id="dateTitle"></label>
+      <button onclick="addAll()" id="addTitle">Добавить</button>
+    </div>
+
+    <div id="textList"></div>
+
+    <div class="button">
+      <button onclick="deleteAll()" id="deletеAll">Удалить все задачи</button>
+      <button onclick="changeAll()" id="toChange">Изменить статус всех задач </button>
+    </div>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+.taskTitle {
+  margin-top: 90px;
+}
+
+.home {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 800px;
+  background-color: #6f81f8;
+  border: 1px solid #ccc;
+}
+
+.ending {
+  background-color: #ea5bc4;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 0 blue
+}
+
+#textTitle {
+  width: 400px;
+  height: 40px;
+  font-size: 30px;
+  color: white;
+  background-color: cornflowerblue;
+  border-radius: 10px;
+  text-shadow:3px 0 #0b7ef1;
+}
+
+label {
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  text-shadow:3px 0 #0b7ef1;
+}
+#dateTitle {
+  width: 400px;
+  height: 40px;
+  font-size: 30px;
+  color: white;
+  background-color: cornflowerblue;
+  border-radius: 10px;
+  text-shadow:3px 0 #0b7ef1;
+}
+
+#addTitle{
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+  background-color: hotpink;
+  color: white;
+  text-shadow:1px 0 #0b7ef1;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.button {
+  text-align: center;
+}
+
+#deletеAll {
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+  background-color: #6f81f8;
+  color: white;
+  text-shadow:2px 0 black;
+}
+
+#toChange {
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+  background-color: #6f81f8;
+  color: white;
+  text-shadow:2px 0 black;
+} 
+
+#textList {
+  color: white;
+}
